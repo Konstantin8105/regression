@@ -106,9 +106,9 @@ func Quadratic(data [][2]float64) (
 	if err = res.Solve(A, right); err != nil {
 		return
 	}
-	c = res.At(0, 0)
+	a = res.At(0, 0)
 	b = res.At(1, 0)
-	a = res.At(2, 0)
+	c = res.At(2, 0)
 
 	// the relative predictive power of a quadratic model
 	var SSE, SST, yMean float64

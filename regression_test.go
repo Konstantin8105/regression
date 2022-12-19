@@ -39,8 +39,8 @@ func ExampleQuadratic() {
 	fmt.Fprintf(os.Stdout, "y   = %.4f*x^2+%.4f*x+%.4f\n", a, b, c)
 	fmt.Fprintf(os.Stdout, "R^2 = %.4f\n", R2)
 	// Output:
-	// y   = 0.5714*x^2+1.0000*x+1.1071
-	// R^2 = 0.6700
+	// y   = 1.1071*x^2+1.0000*x+0.5714
+	// R^2 = 0.9884
 }
 
 func TestQuadratic2points(t *testing.T) {
