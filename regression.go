@@ -39,8 +39,8 @@ func Linear(data [][2]float64) (
 	if err = res.Solve(A, right); err != nil {
 		return
 	}
-	b = res.At(0, 0)
-	a = res.At(1, 0)
+	a = res.At(0, 0)
+	b = res.At(1, 0)
 
 	// the relative predictive power of a quadratic model
 	var xMean, yMean float64

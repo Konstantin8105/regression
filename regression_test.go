@@ -19,7 +19,7 @@ func ExampleLinear() {
 	fmt.Fprintf(os.Stdout, "y   = %.4f*x+%.4f\n", a, b)
 	fmt.Fprintf(os.Stdout, "R^2 = %.4f\n", R2)
 	// Output:
-	// y   = 1.5000*x+0.9500
+	// y   = 0.9500*x+1.5000
 	// R^2 = 0.6748
 }
 
